@@ -1,0 +1,59 @@
+.start {
+    background: url("http://pixeljoint.com/files/icons/full/desert__r1905583001.png") 0 0/cover no-repeat;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.start span {
+    font-size: 50px;
+    text-align: center;
+    color: #5C2800;
+    font-weight: bold;
+}
+.start__btn {
+    border-radius: 0;
+    width: 240px;
+    padding: 0 15px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #db9d33;
+    border: 4px solid #f2ab3f;
+    cursor: pointer;
+    transition: background-color ease 0.2s;
+}
+.start__btn:hover {
+    background-color: #FFE066;
+    color: #5C2800;
+}
+.start input {
+    border: 4px solid #f2ab3f;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 224px;
+    height: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFE066;
+}
+.start input:focus {
+    outline: 4px solid #FFE066;
+}
+.start-wrapper {
+    width: 800px;
+    height: 500px;
+    background: url("http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/e5fd04dbf0c146b.png") 0 0/100% 100% no-repeat;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
