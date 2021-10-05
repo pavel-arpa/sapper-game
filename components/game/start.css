@@ -1,5 +1,5 @@
 .start {
-    background: url("http://pixeljoint.com/files/icons/full/desert__r1905583001.png") 0 0/cover no-repeat;;
+    background: url("../../public/desert.png") 0 0/cover no-repeat;;
     display: flex;
     justify-content: center;
     align-items: center;

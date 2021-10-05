@@ -6,7 +6,7 @@ import lose from "./lose.js";
 
 
 let newStyles = (selector) => {
-    selector.style.backgroundColor = 'rgba(0,0,0,0)'
+    selector.style.background = 'rgba(0,0,0,0)'
     selector.style.boxShadow = 'none'
     selector.style.border = 'none'
     selector.style.transition = 'background ease 0.1s'
